@@ -5,5 +5,5 @@ node_js:
 before_script:
   - npm i scroll-to-bottom
   
- script:  
+script:  
   - npx percy exec -- node percy.js
