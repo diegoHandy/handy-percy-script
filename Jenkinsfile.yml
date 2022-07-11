@@ -1,9 +1,8 @@
 language: node_js
 node_js:
   - 10
-
-before_script:
-  - npm i scroll-to-bottom
   
 script:  
-  - npx percy exec -- node percy.js
+  - npx percy snapshot new-percy.yml
+
+ 
