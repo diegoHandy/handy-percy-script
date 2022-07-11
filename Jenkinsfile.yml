@@ -4,5 +4,5 @@ node_js:
   
 script:  
   - npx percy snapshot new-percy.yml
-
- 
+    env: 
+      PERCY_KEY: $ {{ secrets.PERCY_KEY }}
