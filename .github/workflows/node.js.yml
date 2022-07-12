@@ -28,4 +28,4 @@ jobs:
         npm i percy
         export PERCY_TOKEN=35afd841100c2213be3b883647c21ddab15afef450191c83f32c832cb10449ac
         export PERCY_TARGET_BRANCH=unknown-branch
-        npx npx @percy/cli snapshots.json
+        npx npx @percy/cli percy.yml
