@@ -25,6 +25,6 @@ jobs:
         cache: 'npm'
     - run: npm i percy
     - run: npm i npx
-    - run: export PERCY_TOKEN= ${{ secrets.PERCY_TOKEN }}
+    - run: export PERCY_TOKEN=${{ secrets.PERCY_TOKEN }}
     - run: export PERCY_TARGET_BRANCH=unknown-branch
     - run: npx percy snapshot new-percy.yml
