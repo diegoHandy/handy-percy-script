@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "percy-scripting",
   "version": "1.0.0",
   "description": "",
