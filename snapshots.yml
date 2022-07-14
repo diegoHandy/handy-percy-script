@@ -1,0 +1,17 @@
+base-url: https://handy.la
+
+snapshots:
+  - url: /funcionalidades
+    name: "Funcionalidades"
+  - url: /preventa
+    name: "Preventa"
+  - url: /venta-en-ruta
+    name: "venta-en-ruta"
+  - url: /reparto-preventa
+    name: "Reparto"
+  - url: /academia-handy
+    name: "Academia"
+  - url: /taller-arranque
+    name: "Taller"
+  - url: /precios
+    name: "Precios"
